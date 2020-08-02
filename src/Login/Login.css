@@ -1,0 +1,19 @@
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form > * {
+  margin: 10px 0;
+}
+
+.login-form .login-button {
+  outline: none;
+  border: 1px solid #f7dfa5;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
